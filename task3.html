@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast Website</title>
+    <link rel="stylesheet" href="task3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <div class="background-image"></div>
+        <h1 class="title">Weather Forecast</h1>
+        <span class="quote">Plan your day with weather insights!</span>
+        <div class="search-container">
+            <!-- Quote to attract users -->
+            <input type="text" id="cityInput" placeholder="Enter city name e.g. New York, London, Tokyo...">
+            <!-- Quote to attract users -->
+        </div>
+        <button onclick="searchWeather()">Search</button>
+        <div id="weather" class="weather-output"></div>
+        <div class="precautions">
+            <h2>Precautions</h2>
+            <div class="precautions-list">
+                <div class="precaution">
+                    <h3>High Wind Speed</h3>
+                    <ul>
+                        <li>Stay indoors if possible</li>
+                        <li>Secure loose outdoor objects</li>
+                        <li>Avoid walking or driving near trees or power lines</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="precautions">
+            <h2>Precautions</h2>
+            <div class="precautions-list">
+                <div class="precaution">
+                    <h3>Heavy Rainfall</h3>
+                    <ul>
+                        <li>Avoid driving through flooded areas</li>
+                        <li>Stay away from rivers and streams</li>
+                        <li>Be cautious of landslides and flash floods</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Copyright notice -->
+    <footer class="footer">&copy; 2024 by Shankar Singh. All rights reserved.</footer>
+
+    <!-- JavaScript -->
+    <script src="task3.js"></script>
+</body>
+</html>
